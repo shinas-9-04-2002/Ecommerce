@@ -3,7 +3,7 @@ const mongoose=require('mongoose')
 const cors=require('cors')
 const app=express()
 // middlewares
-//hello
+//hello world
 app.use(cors())
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
